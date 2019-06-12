@@ -1,4 +1,4 @@
-import machine, time, network
+import machine, time
 Pin = machine.Pin
 
 servo = machine.PWM(Pin(13),freq=50)
